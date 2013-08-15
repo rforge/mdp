@@ -1,4 +1,4 @@
-library(roxygen)
+library(roxygen2)
 roxygenize("pkg","pkg",copy.package=FALSE) # unlink.target=TRUE)
 
 # hack to remove the files we don't want to have Rd files for
